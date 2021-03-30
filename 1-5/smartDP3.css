@@ -1,0 +1,70 @@
+@media screen and (max-width: 479px) {
+    .wrapper {
+        width: 200px;
+    }
+
+    .header {
+        width: 200px;
+        height: 200px;
+        position: relative;
+    }
+
+    .flex_box {
+        display: block;
+        justify-content: center;
+        flex-flow: column;
+        position: absolute;
+        width: 60px;
+        height: 140px;
+        left: 70px;
+    }
+
+    .flex_test {
+        display: block;
+        justify-content: center;
+        flex-flow: column;
+        margin: 5px;
+        position: relative;
+        top: 0.5px;
+    }
+
+    .left {
+        width: 200px;
+        height: 100px;
+    }
+
+    .right {
+        width: 200px;
+        height: 210px;
+    }
+
+    .right-upper {
+        float: left;
+        width: 140px;
+        position: relative;
+        top: 20px;
+        left: 30px;
+    }
+    
+    .right-center {
+        float: left;
+        width: 140px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+    
+    .right-lower {
+        float: left;
+        width: 140px;
+        position: relative;
+        top: 40px;
+        left: 30px;
+    }
+
+    .footer {
+        width: 200px;
+    }
+
+
+}
