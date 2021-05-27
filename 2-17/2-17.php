@@ -1,26 +1,20 @@
 <?php
-define("GOAL",40);
-$total = 0;
+$x = 0;
+$v = 0;
 
-for ($x = 1; $x <= GOAL; $x++) {
+while ($x < 40) {
+    $v++;
     $a = rand(1,6);
-    $total += $a;
-
-    echo "{$x}回目= {$a}\n";
-
+    echo $v. "回目＝" . $a . "\n";
+    $x += $a;
     echo "<br>";
-
-    if ($total >= GOAL) {
-        echo "合計{$x}回でゴールしました";
-        break;
-    }
-
 }
+
+echo "合計". $v . "回目でゴールしました";
 
 ?>
 <br>
 <br>
-
 
 <?php
 date_default_timezone_set("Asia/Tokyo");
@@ -33,11 +27,11 @@ $time = intval(date("H"));
 if (4 <= $time && $time <=12) {//4-12時
     echo "おはようございます";
 
-} elseif (12 <= $time && $time <=18) { //12-18時
+} elseif (12 < $time && $time <=18) { //12-18時
     echo "こんにちは";
 
 } else {//それ以外の時間帯
-    echo "こんにちは";
+    echo "こんばんは";
 }
 ?>
 
