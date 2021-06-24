@@ -12,7 +12,7 @@
     <h1>2章チェックテスト</h1>
     <!--名前を入力してquestion.phpに移動するフォームを作成-->
     <form action="question.php" method="post">
-        <p><input type="text" name= "name" placeholder="名前を入力してください" /></p>
+        <input type="text" name= "name" placeholder="名前を入力してください" />
         <input type="submit" value="テスト開始" />
     </form>
    
